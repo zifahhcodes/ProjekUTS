@@ -1,0 +1,113 @@
+@font-face {
+    font-family: SFPRO;
+    src: url(SFPRODISPLAYMEDIUM.otf);
+}
+
+body {
+    font-family: SFPRO;
+    font-style: normal;
+    margin: 0;
+    background-color: #EAEDED;
+}
+
+.container {
+    background-color: #81cdc6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container2{
+    display: flex;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+.navlinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks li {
+    margin-right: 20px;
+}
+.navlinks a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.navlinks a:hover {
+    text-decoration: underline;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icons i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.cart-count {
+    font-size: 14px;
+    color: #333;
+}
+
+.shoppingcart{
+    width: 80%;
+    background-color: white;
+    font-size: 16px;
+    font-style: normal;
+    margin: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+.subtotal{
+    width: 20%;
+    margin: 50px;
+    padding-top: 100px;
+    margin-left: 0px;
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+    align-items: center;
+    background-color: white;
+    height: 120px;
+}
+
+.product{
+    display: flex;
+}
+
+.image, .detail, .pricetag {
+    margin: 10px;
+    padding: 10px;
+}
+
+.checkout{
+    font-family: SFPRO;
+    background-color: #FFAE42;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    padding: 15px 60px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.checkout:hover{
+    background-color: rgb(255, 122, 74);
+}
+
